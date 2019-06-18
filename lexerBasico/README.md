@@ -1,10 +1,6 @@
-﻿# Ejemplos de lexer y parser usando ply
-<pre>
-G =< {E,T, F}, {+, ∗, num,(,)}, P, E >
-E → E - T
-E → T
-T → T / F
-T → F
-F → num
-F → (E)
-</pre>
+# Lexer Basico
+
+Lexer con notacion normal, se le añade resta y division
+Ademas la entra es por un txt
+
+
